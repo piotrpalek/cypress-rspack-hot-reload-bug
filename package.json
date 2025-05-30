@@ -1,0 +1,21 @@
+{
+  "name": "hot-reload-bug-reproduction",
+  "version": "1.0.0",
+  "description": "Minimal reproduction of hot reload bug in cypress-rspack-dev-server",
+  "scripts": {
+    "cypress:open": "cypress open --component",
+    "reproduce-bug": "echo 'Run cypress:open, then modify Button.cy.tsx to see the error'"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.0.0",
+    "@rspack/core": "^1.0.0", 
+    "@rspack/plugin-react-refresh": "^1.0.0",
+    "cypress": "^13.0.0",
+    "cypress-rspack-dev-server": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
